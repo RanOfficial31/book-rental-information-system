@@ -1,0 +1,227 @@
+/* MAIN LAYOUT STYLE */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.main {
+    height: 100vh;
+}
+.domain {
+    font-size: 27px;
+    font-weight: 500;
+    color: #fff;
+}
+.navbar {
+    box-shadow: 4px 4px 3px #cbced1;
+    font-weight: 600;
+    padding-left: 10px;
+    background: #ff028d;
+}
+.sidebar {
+    background: #ecf0f3;
+    color: black;
+    box-shadow: 13px 13px 20px #cbced1;
+    
+}
+.sidebar a {
+    display: block;
+    list-style: none;
+    font-weight: 500;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    transition: all 0,2 ease;
+    
+}
+.sidebar a:hover {
+box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #f9f9f9;
+border-radius: 6px;
+}
+.sidebar a i {
+    margin-right: 5px;
+}
+.active {
+    border-radius: 6px;
+    border-right: solid 7px #ff028d;
+    box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #f9f9f9;
+}
+
+.body-content {
+    background: #ecf0f3;;
+}
+
+/* DASHBOARD STYLE */
+
+.card-data {
+    border-radius: 5px;
+    padding: 20px 50px;
+    color:#fff;
+    box-shadow: 10px 10px 8px #cbced1, -10px -10px 8px #fafafa;
+}
+.card-data.book {
+    background: rgb(228, 80, 0);
+}
+.card-data.category {
+    background: #8600bf;
+}
+.card-data.user {
+    background: green;
+}
+.card-data svg {
+    font-size: 50px;
+}
+.title-book {
+    font-size: 25px;
+    font-weight: 500;
+}
+.data-book {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* CATEGORY STYLE */
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    background: #ecf0f3;
+}
+
+.card {
+    width: 450px;
+    border: none;
+    border-radius: 15px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.adiv {
+    background: #ff028d;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 20px;
+    height: 54px;
+}
+
+.validation-card {
+    background: #ff028d;
+    text-align: center;
+    height: 80px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 21px;
+    font-weight: 600;
+    box-shadow: 6px 6px 4px #cbced1;
+}
+
+/* .body-card-validation {
+    
+} */
+
+.fas {
+    cursor: pointer;
+}
+
+.fa-chevron-left {
+    color: #fff;
+}
+
+.page-welcome {
+    width: 500px;
+    height: 55px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: #ecf0f3;
+    color: #555;
+    box-shadow: 8px 8px 8px #cbced1, -8px -8px 8px #f9f9f9;
+    
+}
+
+.page {
+    width: 250px;
+    height: 60px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: #ecf0f3;
+    color: #555;
+    box-shadow: 8px 8px 8px #cbced1, -8px -8px 8px #f9f9f9;
+    
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+small {
+    font-size: 14px;
+}
+
+small a {
+    color:#e4007e;
+}
+
+small a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+.create-btn {
+    margin-top: 12px;
+    padding: 4px 5 7px;
+    border: none;
+    box-shadow: 6px 6px 3px #cbced1, 3px 3px 3px #fff;
+    background: #ff028d;
+}
+
+.create-btn:hover {
+    background: #bf016a;
+}
+
+.view-btn {
+    margin-top: 12px;
+    padding: 4px 5 7px;
+    border: none;
+    box-shadow: 6px 6px 3px #cbced1, 3px 3px 3px #fff;
+    background: #ca0039;
+}
+
+.view-btn:hover {
+    background: #a80117;
+}
+
+.view-btn span {
+    font-size: 17px;
+    color: #fff;
+}
+
+
+p.mt-3 {
+    font-size: 15px;
+    color: #B8B9BD;
+    cursor: pointer;
+}
+
+.form-control i {
+    margin-left: 10px;
+}
+
+table {
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+    text-align: center;
+}
+
+.colorth {
+    background: blue;
+    color: white;
+}
